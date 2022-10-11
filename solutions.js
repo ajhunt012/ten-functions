@@ -21,3 +21,17 @@
  * concat
  */
 
+function(isTrue) {
+    if (isTrue(boolean) !== true)
+        return false;
+} else {
+    return true;
+}
+
+isTrue(true)             // true
+isTrue(false)            // false
+isTrue(0)                // false
+isTrue(null)             // false
+isTrue("true")           // false
+isTrue("Banana")         // false
+isTrue([1, 2])           // false
