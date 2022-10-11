@@ -21,17 +21,31 @@
  * concat
  */
 
-function(isTrue) {
-    if (isTrue(boolean) !== true)
+function isTrue(boolean) {
+    if (isTrue === true) {
+        return true;
+    } else {
         return false;
-} else {
-    return true;
+    }
 }
 
-isTrue(true)             // true
-isTrue(false)            // false
-isTrue(0)                // false
-isTrue(null)             // false
-isTrue("true")           // false
-isTrue("Banana")         // false
-isTrue([1, 2])           // false
+function isFalse(boolean) {
+    if (isFalse === true) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function not(boolean) {
+    if (not == true) {
+        return false;
+    } else {
+        return false;
+    }
+}
+
+function addOne(num) {
+    if (addOne !== NaN)
+}
+
